@@ -1,0 +1,18 @@
+/* Add application styles & imports to this file! */
+div {
+  background: #e5ebf4;
+  border-radius: 10px;
+  padding: 10px;
+}
+div > div {
+  display: flex;
+  align-items: center;
+}
+p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.note {
+  font-size: 13px;
+  color: #0366d6;
+}

@@ -1,0 +1,14 @@
+div {
+  display: inline-block;
+  background: #faecec;
+  margin: 10px;
+}
+div > div {
+  display: flex;
+  align-items: center;
+}
+p,
+h3 {
+  margin-left: 20px;
+  margin-right: 20px;
+}

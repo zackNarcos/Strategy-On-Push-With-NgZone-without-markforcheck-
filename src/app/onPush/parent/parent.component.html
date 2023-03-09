@@ -1,0 +1,11 @@
+<div>
+  <div>
+    <h3>{{ user.firstName }} {{ user.lastName }}</h3>
+    <p>composant parent (type-default)</p>
+  </div>
+  <app-child [user]="user"></app-child>
+  <hr />
+  <p class="note">
+    En 4 secondes, l'attribut "Prenom" est mise à jour dans le composant enfant.
+  </p>
+</div>
